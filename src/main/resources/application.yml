@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: json-put-controller
+  server:
+    port: 8081
+    max-request-size: 50mb
+    idle-timeout: 1h
+  http:
+    client:
+      read-timeout: 1m
+      connect-timeout: 10s

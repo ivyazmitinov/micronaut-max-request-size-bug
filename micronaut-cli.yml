@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: json.put.controller
+---
+testFramework: junit
+sourceLanguage: java
